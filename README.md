@@ -1,3 +1,25 @@
+# Olist — Python and Pandas Coursework
+
+Le Wagon Decision Science coursework using Olist's real-world Brazilian e-commerce dataset. The business question is how Olist could improve profitability.
+
+## What is available
+
+- A CSV loader in `olist/data.py` that returns named Pandas DataFrames.
+- Supporting modules for products, sellers and reviews, with a mix of supplied course code and unfinished exercise methods.
+- Dataset and package documentation.
+
+## Status and scope
+
+This repository is a **partial coursework snapshot**, not the completed business-loss analysis. Several methods in `olist/order.py` and `olist/seller.py` remain unimplemented. The final loss calculation, analysis notebook, conclusions and recommendations are not included. No realised business savings are claimed.
+
+The CSV datasets are not committed. Download the dataset using the source described below and place the extracted CSVs in `data/csv/`. The loader requires Python and Pandas. Some supporting modules also use NumPy. The full analysis is not currently runnable end to end from this snapshot.
+
+## Provenance
+
+Based on Le Wagon coursework. Original exercise instructions and scaffolding are retained below; the repository does not imply sole authorship of the supplied material or employment by Olist.
+
+---
+
 ## Objectives of the module
 
 We will analyze a dataset provided by an e-commerce marketplace called [Olist](https://www.olist.com) to answer the CEO's question:
