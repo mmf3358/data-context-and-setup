@@ -8,6 +8,10 @@ Le Wagon Decision Science coursework using Olist's real-world Brazilian e-commer
 - Supporting modules for products, sellers and reviews, with a mix of supplied course code and unfinished exercise methods.
 - Dataset and package documentation.
 
+## Conclusions
+
+The available code provides a foundation for studying sales, delivery times and customer reviews with Pandas. It does not yet establish the causes or monetary value of business losses.
+
 ## Status and scope
 
 This repository is a **partial coursework snapshot**, not the completed business-loss analysis. Several methods in `olist/order.py` and `olist/seller.py` remain unimplemented. The final loss calculation, analysis notebook, conclusions and recommendations are not included. No realised business savings are claimed.
